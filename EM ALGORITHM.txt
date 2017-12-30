@@ -1,3 +1,4 @@
+//PROBABILITY OF GETING HEAD AND TAIL WHEN TWO COINS ARE DRAWN RANDOMLY FROM DIFFERENT SAMPLES 
 S1=sample(c(1,0),10,replace=TRUE,prob=c(0.75,0.25))
 S2=sample(c(1,0),10,replace=TRUE,prob=c(0.75,0.25))
 S3=sample(c(1,0),10,replace=TRUE,prob=c(0.30,0.70))
@@ -22,8 +23,3 @@ p2=sum(HD2)/(sum(HD2)+sum(TL2))
 }
 p1
 p2
-
-
-
-
-
