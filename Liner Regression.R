@@ -1,3 +1,4 @@
+// DATA ANALYSIS ON AIR QUALITY
 data(airquality)
 names(airquality)
 plot(Ozone~Solar.R,data=airquality)
